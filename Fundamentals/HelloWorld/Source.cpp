@@ -1,18 +1,25 @@
 #include<iostream>
-
-double CelsiusFromFahrenheit(double tempInFahrenheit)
+#include<vector>
+#include<fstream>
+#include<string>
+#include<algorithm>
+using namespace std;
+int main()
 {
-	return (tempInFahrenheit - 32)*5.0 / 9.0;
-}
-int main() 
-{
-	float tempInFahrenheit{};
-	float tempInCelsius{};
-	std::cout << "Fahrenheit to Celsius Converter"<<std::endl;
-	std::cout << "*******************************" << std::endl;
-	std::cout << "Enter temprature in Fahrenheit :";
-	std::cin >> tempInFahrenheit;
-	std::cout << "Temperature in Celsius :" << CelsiusFromFahrenheit(tempInFahrenheit);
+	vector<string> companies{ "Microsoft", "Intel","Google","Apple", "Borland", "Citrix", "Dell","EMC" };
+	cout << "Before sorting" << endl;
+	cout << "**************" << endl;
+	for (string const& company : companies)
+	{
+		cout << company << endl;
+	}
+	cout << "After sorting" << endl;
+	cout << "**************" << endl;
+	std::sort(begin(companies), end(companies));
+	for (string const& company : companies)
+	{
+		cout << company << endl;
+	}
 	return 0;
 }
 
