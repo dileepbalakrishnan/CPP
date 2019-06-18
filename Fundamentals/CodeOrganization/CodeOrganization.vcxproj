@@ -21,10 +21,13 @@
   <ItemGroup>
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Rectangle.hpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{5F0A8E40-3513-468E-BA58-659CBB651E2C}</ProjectGuid>
-    <RootNamespace>FunctionsDemo</RootNamespace>
+    <ProjectGuid>{5A51EFAF-2534-434B-A093-75513A93898C}</ProjectGuid>
+    <RootNamespace>CodeOrganization</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
