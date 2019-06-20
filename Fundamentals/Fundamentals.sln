@@ -23,6 +23,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CodeOrganization", "CodeOrg
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MoreCodeOrganization", "MoreCodeOrganization\MoreCodeOrganization.vcxproj", "{3717E565-03DF-4272-A8C9-BAA74F6B2EB4}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "InheritanceDemo", "InheritanceDemo\InheritanceDemo.vcxproj", "{817C0A66-A04A-4F22-9105-F9CEE07BFC07}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -111,6 +113,14 @@ Global
 		{3717E565-03DF-4272-A8C9-BAA74F6B2EB4}.Release|x64.Build.0 = Release|x64
 		{3717E565-03DF-4272-A8C9-BAA74F6B2EB4}.Release|x86.ActiveCfg = Release|Win32
 		{3717E565-03DF-4272-A8C9-BAA74F6B2EB4}.Release|x86.Build.0 = Release|Win32
+		{817C0A66-A04A-4F22-9105-F9CEE07BFC07}.Debug|x64.ActiveCfg = Debug|x64
+		{817C0A66-A04A-4F22-9105-F9CEE07BFC07}.Debug|x64.Build.0 = Debug|x64
+		{817C0A66-A04A-4F22-9105-F9CEE07BFC07}.Debug|x86.ActiveCfg = Debug|Win32
+		{817C0A66-A04A-4F22-9105-F9CEE07BFC07}.Debug|x86.Build.0 = Debug|Win32
+		{817C0A66-A04A-4F22-9105-F9CEE07BFC07}.Release|x64.ActiveCfg = Release|x64
+		{817C0A66-A04A-4F22-9105-F9CEE07BFC07}.Release|x64.Build.0 = Release|x64
+		{817C0A66-A04A-4F22-9105-F9CEE07BFC07}.Release|x86.ActiveCfg = Release|Win32
+		{817C0A66-A04A-4F22-9105-F9CEE07BFC07}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
