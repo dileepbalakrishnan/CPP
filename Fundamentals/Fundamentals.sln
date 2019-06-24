@@ -43,6 +43,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GenericLambda", "GenericLam
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LambdaCapture", "LambdaCapture\LambdaCapture.vcxproj", "{5A327599-48EA-4AA8-B99D-B1F76DC0C4E0}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataStructures", "DataStructures", "{AEE258A4-3DC8-40AE-B84D-15A94B9C1F1A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CustomArray", "CustomArray\CustomArray.vcxproj", "{1E37B02D-5458-4D2A-9526-AE86379E87CB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -211,9 +215,20 @@ Global
 		{5A327599-48EA-4AA8-B99D-B1F76DC0C4E0}.Release|x64.Build.0 = Release|x64
 		{5A327599-48EA-4AA8-B99D-B1F76DC0C4E0}.Release|x86.ActiveCfg = Release|Win32
 		{5A327599-48EA-4AA8-B99D-B1F76DC0C4E0}.Release|x86.Build.0 = Release|Win32
+		{1E37B02D-5458-4D2A-9526-AE86379E87CB}.Debug|x64.ActiveCfg = Debug|x64
+		{1E37B02D-5458-4D2A-9526-AE86379E87CB}.Debug|x64.Build.0 = Debug|x64
+		{1E37B02D-5458-4D2A-9526-AE86379E87CB}.Debug|x86.ActiveCfg = Debug|Win32
+		{1E37B02D-5458-4D2A-9526-AE86379E87CB}.Debug|x86.Build.0 = Debug|Win32
+		{1E37B02D-5458-4D2A-9526-AE86379E87CB}.Release|x64.ActiveCfg = Release|x64
+		{1E37B02D-5458-4D2A-9526-AE86379E87CB}.Release|x64.Build.0 = Release|x64
+		{1E37B02D-5458-4D2A-9526-AE86379E87CB}.Release|x86.ActiveCfg = Release|Win32
+		{1E37B02D-5458-4D2A-9526-AE86379E87CB}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1E37B02D-5458-4D2A-9526-AE86379E87CB} = {AEE258A4-3DC8-40AE-B84D-15A94B9C1F1A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2B13B9F5-C603-4013-95B7-B8940D79D65E}
